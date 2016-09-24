@@ -60,7 +60,7 @@ namespace Warden.Watchers.AzureStorage
         {
             var config = new AzureStorageWatcherConfiguration.Builder(connectionString);
             configurator?.Invoke((AzureStorageWatcherConfiguration.Default) config);
-            return new AzureStorageWatcher(DefaultName, config.Build(), group);
+            return new AzureStorageWatcher(name, config.Build(), group);
         }
 
     }
