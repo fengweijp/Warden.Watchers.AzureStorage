@@ -7,7 +7,7 @@ For information on how to setup your Warden please refer to the [Warden document
 
 Installation:
 ---
-Available as a [NuGet package]().
+Available as a [NuGet package](https://www.nuget.org/packages/Warden.Watchers.AzureStorage/).
 ```
 Install-Package Warden.Watchers.AzureStorage
 ```
